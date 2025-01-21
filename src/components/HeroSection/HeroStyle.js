@@ -96,10 +96,12 @@ export const Img = styled.img`
   position: relative;
   width: 100%;
   height: 100%;
+  margin-bottom: 40px;
   max-width: 400px;
   max-height: 400px;
   border-radius: 50%;
-  border: 2px solid ${({ theme }) => theme.primary};
+  /* border: 2px solid ${({ theme }) => theme.primary}; */
+  border: 2px solid white;
 
   @media (max-width: 768px) {
     max-width: 400px;
@@ -107,8 +109,9 @@ export const Img = styled.img`
   }
 
   @media (max-width: 640px) {
-    max-width: 280px;
-    max-height: 280px;
+    max-width: 200px;
+    max-height: 200px;
+    margin-top: 28px;
   }
 `;
 
@@ -181,10 +184,12 @@ export const ResumeButton = styled.a`
     font-size: 20px;
     font-weight: 600;
     transition: all 0.2s ease-in-out !important;
-    background: hsla(271, 100%, 50%, 1);
+    /* background: hsla(271, 100%, 50%, 1);
     background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
     background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+    background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%); */
+    background-color: white;
+    color: black;
     box-shadow:  20px 20px 60px #1F2634,
     -20px -20px 60px #1F2634;
     &:hover {

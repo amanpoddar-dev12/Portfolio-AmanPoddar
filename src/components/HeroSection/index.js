@@ -16,10 +16,11 @@ import {
   SocialMediaIcon,
   ResumeButton,
 } from "./HeroStyle";
+import MagnetLines from "../../ui/MagnetLines";
 import HeroImg from "../../images/HeroImage.jpg";
 import Typewriter from "typewriter-effect";
 import { Bio } from "../../data/constants";
-
+import Noise from "../../ui/Noisy";
 const HeroSection = () => {
   const handleAnimationComplete = () => {
     console.log("Animation completed!");
@@ -28,7 +29,17 @@ const HeroSection = () => {
     <div id="about">
       <HeroContainer>
         <HeroBg>
-          <HeroBgAnimation />
+          {/* <HeroBgAnimation /> */}
+          <MagnetLines
+            rows={9}
+            columns={9}
+            containerSize="60vmin"
+            lineColor="tomato"
+            lineWidth="0.8vmin"
+            lineHeight="5vmin"
+            baseAngle={0}
+            style={{ margin: "5rem 80px auto" }}
+          />
         </HeroBg>
         <HeroInnerContainer>
           <HeroLeftContainer id="Left">
