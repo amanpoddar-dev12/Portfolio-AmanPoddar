@@ -302,8 +302,7 @@ export const projects = [
     date: "Oct 2024 - Dec 2024",
     description:
       "The Wild Oasis Admin Web App is a robust and user-friendly administrative platform for managing bookings and cabins efficiently. Key features include: User Management Check-in and check-out functionality for guests. Cabin Management View and update cabin details seamlessly. Account Security Admins can update their account passwords. Authentication Secure user login and signup powered by Supabase.",
-    image:
-      "https://media.licdn.com/dms/image/v2/D4D2DAQGdFx7LHCA1_A/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1732446671788?e=1737572400&v=beta&t=I68lMAVglFcaiE8bRzUlnRS7tCUnEuYfEPWDUDKtWsI",
+    image: "https://i.postimg.cc/ydvn0pww/Screenshot-2025-01-16-002610.png",
     tags: [
       "Html5",
       "Css",
@@ -329,8 +328,7 @@ export const projects = [
     date: "Sep 2024 - Oct 2024",
     description:
       "A dynamic shopping platform built using React, showcasing modern web development techniques. Key features include: State Management Utilizes Redux Toolkit and Context API for efficient application state control. Data Handling Implements React Query for optimized data fetching and caching.Authentication Secure user login and signuppowered by Firebase.API Integration Seamless product and ordermanagement through API connectivity.Responsive Design Built with Tailwind CSSfor a clean, mobile-friendly interface.Modern React Concepts Demonstrates theapplication of advanced React patterns for arobust and user-friendly experience.",
-    image:
-      "https://media.licdn.com/dms/image/v2/D4D2DAQEXgJDDqasx4A/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1736966643472?e=1737572400&v=beta&t=ZmJbWNDJOXziqeNCdz4IR66kExDzos-EB8ZY5sNvekk",
+    image: "https://i.postimg.cc/sgzCqMKL/Screenshot-2025-01-16-002551.png",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
     category: "web app",
     github: "https://github.com/amanpoddar-dev12/e-commerce",
